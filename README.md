@@ -1,5 +1,6 @@
 # Customer-Segmentation-using-KMeans
 Customer Segmentation for Retail Industry using Unsupervised Learning (K-Means Clustering Algorithm)
+<img src="Screenshots/Clustering.PNG" height="250" width="400">
 
 ## What is the Dataset about:
 The dataset contains information about certain customers from a Mall. Following are the attributes of the dataset:<br>
