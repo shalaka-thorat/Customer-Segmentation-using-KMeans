@@ -41,13 +41,13 @@ K-Means Clustering groups unlabelled data into certain number of clusters. It is
 <img src="Screenshots/kmeans.png" height="300" width="300">
 
 ## Results:
-<img style="border: 5px solid #555;" align="left" src="Screenshots/Clusters-Result.PNG" height="400" width="400">
-<img style="border: 5px solid #555;" border="5" align="right" title="B" src="Screenshots/Male-Female-Clusters-Result.PNG" height="400" width="550">
+<img align="left" src="Screenshots/Clusters-Result.PNG" height="400" width="400">
+<img align="right" src="Screenshots/Male-Female-Clusters-Result.PNG" height="400" width="550">
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (A) 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (B) <br><br>
 
-Using Elbow point method, we got K i.e. number of clusters=5. Cluster Analysis for the same is shown is the above left snap (A).<br>
+Using Elbow point method, we got K i.e. number of clusters=5. Cluster Analysis for the same, as shown is the above left snap (A).<br>
 We then created different clusters for Male and Female members based on Genre column, as shown in above right snap (B).
 
 ## Conclusion:
