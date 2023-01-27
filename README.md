@@ -31,8 +31,23 @@ We will use following methodology for cluster creation:
 We have used the following Unsupervised Learning Algorithm:
 
 K-Means Clustering:<br>
-K-Means Clustering
+K-Means Clustering groups unlabelled data into certain number of clusters. It is a centroid-based algorithm, where each cluster is associated to a centroid. Centroid represents centre of a cluster, generally the mean/average point of a cluster. The algorithm works as follows:
+1) Select number K to decide the number of clusters. (K=number of clusters, we will use number of clusters, as K in later steps)
+2) Select K random points from the data, as the centroids of the K clusters.
+3) Assign each data point to the closest cluster i.e. minimum distance from one of the K clusters. Thus, each data point will be part of any 1 cluster.
+4) Calculate new centroids for K clusters i.e. average data point for each cluster.
+6) Continue Steps 3 and 4, until none of the data points get reassigned to a different cluster from the previously assigned one.
+7) Once the data points are stable, we get our K clusters and our data segregated into these K clusters.
+<img src="Screenshots/kmeans.png" height="300" width="300">
 
 ## Results:
+<img style="border: 5px solid #555;" align="left" src="Screenshots/Clusters-Result.PNG" height="400" width="400">
+<img style="border: 5px solid #555;" border="5" align="right" title="B" src="Screenshots/Male-Female-Clusters-Result.PNG" height="400" width="550">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (A) 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (B) <br><br>
+
+Using Elbow point method, we got K i.e. number of clusters=5. Cluster Analysis for the same is shown is the above left snap (A).<br>
+We then created different clusters for Male and Female members based on Genre column, as shown in above right snap (B).
 
 ## Conclusion:
